@@ -1,0 +1,73 @@
+body {
+	background-color: #A0AAB2;
+	color: white;
+	margin-top:150px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+h4{
+	font-size:20px;
+	font-family:Ubuntu;
+	text-align: center;
+	font-weight: 100;
+	}
+
+h2 {
+	font-size:60px;
+	font-family:Ubuntu;
+	text-align: center;
+	margin-top: 300px;
+	}
+
+h3 {
+	font-size:30px;
+	font-family:Ubuntu;
+	font-weight: 800;
+	text-align: center;
+	margin-top: -100;
+	margin-bottom: 0;
+	border: 30 10 0 10;
+	opacity: 0.5;
+}
+
+.studios-title {
+	text-align: center;
+}
+h5 {
+	font-size: 120px;
+	font-family: Ubuntu;
+	font-weight: 800px;
+	text-align: center;
+	font-style: italic;
+	opacity: 0.5;
+
+
+}
+
+.Studios {
+	position: absolute;
+	right:18px;
+	left:18px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+	border: 2px solid transparent;
+	background-color: #94849B;
+	margin: -250px 0 0 0;
+	z-index: -1;
+
+}
+
+.Studio-A {
+	padding: 0 10px;
+}
+
+
+.Studio-B {
+	padding: 0 10px;
+}
+
+.Studio-C {
+	padding: 0 10px;
+}
