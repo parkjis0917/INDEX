@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA Compatible" content="ie=edge">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lemon&display=swap" rel="stylesheet">
+
+	<title>Water waves</title>
+
+	<link rel="stylesheet" href="VickyP_waterwaves.css">
+
+</head>
+
+<body>
+	<!-- multiple drops output -->
+	<div class="drops lightblue"></div>
+	<div class="drops lightblue"></div>
+	<div class="drops lightblue"></div>
+
+	<div class="box">
+		<div class= "wave lightblue"></div>
+
+	</div>
+
+	<div class="hilt">
+		<div class="handle"></div>
+	</div>
+
+<body id="bodyId">
+	<div class="container">
+		<button id="button">Custom Flavor</button>
+	</div>
+
+<script type="text/javascript">
+
+var wave = document.querySelector('.wave');
+var bottom = -170;
+
+// window.addEventListener('load',function(){
+// 	move();
+// });
+
+// function move(){
+// 	var id=setInterval(frame, 2000);
+
+// 	function frame(){
+// 		if(bottom >= -120){
+// 			wave.style.bottom = bottom + "%";
+// 			bottom = bottom - 25;
+// 			console.log(bottom);
+// 		}else{
+// 			wave.style.bottom = bottom + "%";
+// 			bottom = bottom -- 15;
+// 			console.log(bottom);
+// 		}
+// 	}
+// }
+
+
+button.addEventListener('click', ()=>{
+	console.log('test');
+	num = randi(3);
+	console.log(num);
+	var colorOne = randomColor();
+	var colorTwo = randomColor();
+	
+	$('.lightblue').css('background', 'linear-gradient(to right,'+colorOne+','+colorTwo+')');
+});
+
+
+function randi(range){
+	var r = Math.floor(Math.random()*range); 
+	return r /// this returns an integer
+}
+
+
+function randomColor(){
+    var r = Math.floor(Math.random()*256);
+	var g = Math.floor(Math.random()*256);
+	var b = Math.floor(Math.random()*256);
+
+	var rgb = "rgb("+r+","+g+","+b+")"
+
+	return rgb;
+}
+
+
+</script>
+</body>
+</html>
