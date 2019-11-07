@@ -1,0 +1,30 @@
+p{
+  color: #67b375;
+  font-size: 30px;
+  font-family: arial;
+}
+
+#box{
+  position: absolute;
+  width: 1500px;
+  height: 400px;
+  bottom: 0px;
+  align-content: center;
+  z-index: 1;
+  opacity: 0.8;
+}
+#box 
+    {animation: colorchange 40s infinite; }
+
+    @keyframes colorchange
+    {
+      50% {background: #fcd7fa;}
+      5% {background: #d638b9;}
+      45% {background: #fff16f;}
+    }
+
+img {
+  position: absolute;
+  bottom: 0px;
+  z-index: 2;
+}
