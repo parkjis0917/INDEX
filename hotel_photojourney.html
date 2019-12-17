@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+	<title> Jeju itinerary-Journey and Photos </title>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat+Subrayada:400,700|Montserrat:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box one"></div>
+		<div class="box two"></div>
+		<div class="box three"></div>
+		<div class="box four"></div>
+		<div class="box five"></div>
+		<div class="box six"></div>
+	</div>
+	<div class="content">
+		<h1>MY MEMORIES IN RAMADA PLAZA JEJU</h1>
+		<p>When we entered the hotel, the lounge interior gave traditional and elegant feeling of design. The hoteliers were gave nice explanations. When we entered the room, it was very clean with a large clean washroom. The interior was elegantly designed, and I always loved the quality of the blanket that makes me go to sleep so quickly. </p>
+		<p>When you wake up in the morning, and open up the curtains, you can see the wonderful expansion of the open sea through the large windows. The morning view and moment is just unforgettable.</p>
+		<p>The best part of this hotel was the spa and the pool in the hotel. When we were there, they had a Pool Party event at night, and was free for Ramada room customers. They sold cocktails and drinks, and such hip music. We had a great time there! Also, in the day time, you can see the beautiful sea as you are sitting in the hot tub or swimming in the pool.</p>
+		
+	</div>
+	
+
+
+</body>
+
+<style type="text/css">
+	*,*::before,*::after{
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		background-color: #262626;
+		font-family:arial;
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+	}
+	.wrapper{
+		position: relative;
+		display: grid;
+		background-color: #fff;
+		width:900px;
+		max-width: 100%;
+		height: 90vh;
+		margin: 30px auto;
+		grid-gap: 5px;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+	}
+	.box{
+		background-color: white;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+	}
+	.box.one { 
+		grid-column: span 3;
+		grid-row: span 3;
+		background-image: url(Jeju_photos/20190819_155225.jpg);
+	 }
+	 /*me*/
+	 .box.two { 
+		grid-column: span 2;
+		grid-row: span 2;
+		background-image: url(Jeju_photos/1566151897350.jpg);
+	 }
+	 .box.three { 
+		grid-column: 1 / span 2;
+		grid-row: 4 / span 3;
+		background-image: url(Jeju_photos/20190816_225625_447.jpg);
+	 }
+	 .box.four { 
+		grid-column: 3 / span 1;
+		grid-row: 4 / span 3;
+		background-image: url(Jeju_photos/1566151868474.jpg);
+	 }
+	 .box.five { 
+		grid-column: 4 / span 2;
+		grid-row: 3 / span 2;
+		background-image: url(Jeju_photos/20190817_014730_287.jpg);
+
+	 }
+	 .box.six { 
+		grid-column: span 2;
+		grid-row: span 2;
+		background-image: url(Jeju_photos/20190817_102822_759.jpg);
+	 }
+
+	 .content {
+	 	width: 70vw;
+	 	height: 70vh;
+	 	position: relative;
+	 	margin: 30px auto;
+	 	text-align: center;
+
+	 }
+	 h1{
+	 	font-size: 40px;
+		font-family: 'Julius Sans One', sans-serif;
+		color: white;
+		margin: 20px 0 20px 0;
+	 }
+	 p{
+	 	font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		margin: 20px 0 auto;
+	 }
+	 
+</style>

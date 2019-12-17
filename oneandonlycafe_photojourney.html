@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+	<title> Jeju itinerary-Journey and Photos </title>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat+Subrayada:400,700|Montserrat:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box one"></div>
+		<div class="box two"></div>
+
+		<div class="box three"></div>
+		<div class="box four"></div>
+
+		<div class="box six"></div>
+	</div>
+	<div class="content">
+		<h1>MY MEMORIES IN ONE AND ONLY CAFE</h1>
+		<p>It was pretty much a tough exercise hiking up Mt. Sanbang so we needed a rest to relax and cool down.</p>
+		<p>First of all, I LOVED the architecture design and the interior design of this cafe. It was so modern and beautiful along with the landscape of Mt. Sanbang at the back and an expansive view of the blue sea. It looked like the cafe design was thoughtfully designed for customers to better view the landscape, and the choices of furniture and materials were very inspiring for me as a designer. When you go up the rooftop, there are couches and benches where you can relax and just look at the view as you drink coffee.</p>
+		<p>They have so many different foods; sandwiches, salads, desserts, and various drinks. Each of us had an americano, a caramel macchiato, and a latte.</p>
+		<p>It was just so beautiful and relaxing and refreshing for us after a hike.</p>
+		
+	</div>
+	
+
+
+</body>
+
+<style type="text/css">
+	*,*::before,*::after{
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		background-color: #262626;
+		font-family:arial;
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+	}
+	.wrapper{
+		position: relative;
+		display: grid;
+		background-color: #fff;
+		width:900px;
+		max-width: 100%;
+		height: 90vh;
+		margin: 30px auto;
+		grid-gap: 5px;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+	}
+	.box{
+		background-color: white;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+	}
+	.box.one { 
+		grid-column: span 3;
+		grid-row: span 3;
+		background-image: url(Jeju_photos/1566151068877.jpg);
+	 }
+	 /*me*/
+	.box.two { 
+		grid-column: span 2;
+		grid-row: span 4;
+		background-image: url(Jeju_photos/oneandonly_view1.jpg);
+	 }
+	/*windowview*/
+	 .box.three { 
+		grid-column: 1 / span 2;
+		grid-row: 4 / span 3;
+		background-image: url(Jeju_photos/IMG_2925.jpg);
+	 }
+	 /*interior*/
+	 .box.four { 
+		grid-column: 3 / span 1;
+		grid-row: 4 / span 3;
+		background-image: url(Jeju_photos/KakaoTalk_20191202_190946293_08.jpg);
+	 }
+	/* drink*/
+	
+	 .box.six { 
+		grid-column: span 2;
+		grid-row: span 2;
+		background-image: url(Jeju_photos/1573489198774.jpg);
+	 }
+	 /*rooftop*/
+	 .content {
+	 	width: 70vw;
+	 	height: 70vh;
+	 	position: relative;
+	 	margin: 30px auto;
+	 	text-align: center;
+
+	 }
+	 h1{
+	 	font-size: 40px;
+		font-family: 'Julius Sans One', sans-serif;
+		color: white;
+		margin: 20px 0 20px 0;
+	 }
+	 p{
+	 	font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		margin: 20px 0 auto;
+	 }
+	 
+</style>
