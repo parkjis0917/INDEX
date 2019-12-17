@@ -1,0 +1,611 @@
+body {
+	margin-top:200px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+.letter {
+
+	width:150px; /*resize as you see fit */
+	height:300px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	border:1px solid transparent; /*feel free to remove or hide this rule */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+.title1 {text-align: center;}
+	#parallelogram-T {
+    	position: absolute;
+    	top:50px;
+    	left:50px;
+    	width: 140px;
+    	height: 20px;
+    	transform: skew(-20deg);
+    	background: #94849B;
+    }
+    #parallelogram-T1 {
+    	position: absolute;
+    	top:75px;
+    	left:60px;
+    	width: 45px;
+    	height: 180px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+
+    #parallelogram-H {
+	    position: absolute;
+	    top:50px;
+	    left:37px;
+    	width: 40px;
+	    height: 200px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-H1 {
+	    position: absolute;
+	    top:135px;
+	    left:90px;
+	    width: 50px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-H2 {
+    position: absolute;
+    top:50px;
+    left:120px;
+      width: 45px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #94849B;
+    }
+
+   #parallelogram-E {
+	    position: absolute;
+	    top:50px;
+	    left:37px;
+	    width: 45px;
+	    height: 200px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E1 {
+	    position: absolute;
+	    top:50px;
+	    left:120px;
+	    width: 70px;
+	    height: 43px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E2 {
+	    position: absolute;
+	    top:135px;
+	    left:93px;
+	    width: 50px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E3 {
+	    position: absolute;
+	    top:206px;
+	    left:63px;
+	    width: 70px;
+	    height: 43px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+
+    #circle-O {
+	    position:absolute;
+	    top:50px;
+	    left:20px;
+	    width: 140px;
+	    height: 200px;
+	    background: #94849B;
+	    border-radius: 50% 50% 50% 50%/60% 60%;
+	    transform: skew(-20deg);
+    }
+    #circle-O1 {
+	    position:absolute;
+	    top:83px;
+	    left:60px;
+	    width: 65px;
+	    height: 130px;
+	    background: #A0AAB2;
+	    border-radius: 50% 50% 50% 50%/60% 60%;
+	    transform: skew(-25deg);
+    }
+
+	#parallelogram-R {
+	    position: absolute;
+	    top:50px;
+	    left:35px;
+	    width: 43px;
+	    height: 200px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+  }
+	#parallelogram-R1 {
+	    position: absolute;
+	    top:50px;
+	    left:107px;
+	    width: 80px;
+	    height: 90px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+  }
+	#triangle-up-R {
+	    position: absolute;
+	    top: 150px;
+	    left: 54px;
+	    width: 0;
+	    height: 0;
+	    border-left: 30px solid transparent;
+	    border-right: 50px solid transparent;
+	    border-bottom: 100px solid #94849B;
+	    transform: skew(-3deg);
+}
+
+	#parallelogram-I {
+	    position: absolute;
+	    top:50px;
+	    left:80px;
+	    width: 70px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+}
+    #parallelogram-I1 {
+	    position: absolute;
+	    top:50px;
+	    left:60px;
+	    width: 45px;
+	    height: 200px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+}
+    #parallelogram-I2 {
+	    position: absolute;
+	    top:230px;
+	    left:15px;
+	    width: 70px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+}
+
+	#parallelogram-Z {
+    position: absolute;
+    top:50px;
+    left:25px;
+    width: 60px;
+    height: 20px;
+    transform: skew(-20deg);
+    background: #94849B;
+    }
+    #parallelogram-Z1 {
+    position: absolute;
+    top:50px;
+    left:60px;
+    width: 45px;
+    height: 200px;
+    transform: skew(-20deg);
+    background: #94849B;
+    }
+    #parallelogram-Z2 {
+    position: absolute;
+    top:230px;
+    left:80px;
+    width: 60px;
+    height: 20px;
+    transform: skew(-20deg);
+    background: #94849B;
+    }
+
+	#parallelogram-I {
+	    position: absolute;
+	    top:50px;
+	    left:80px;
+	    width: 70px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+}
+    #parallelogram-I1 {
+	    position: absolute;
+	    top:50px;
+	    left:60px;
+	    width: 45px;
+	    height: 200px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+}
+    #parallelogram-I2 {
+	    position: absolute;
+	    top:230px;
+	    left:15px;
+	    width: 70px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+}
+
+#parallelogram-N {
+    position: absolute;
+    top:50px;
+    left:37px;
+      width: 40px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #94849B;
+    }
+    #parallelogram-N1 {
+    position: absolute;
+    top:50px;
+    left:90px;
+      width: 8px;
+      height: 200px;
+      background: #94849B;
+    }
+
+    #parallelogram-N2 {
+    position: absolute;
+    top:50px;
+    left:120px;
+      width: 45px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #94849B;
+    }
+    #parallelogram-N3 {
+    position: absolute;
+    top:50px;
+    left:77px;
+      width: 7px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #A0AAB2;
+    }
+    #parallelogram-N4 {
+    position: absolute;
+    top:50px;
+    left:116px;
+      width: 7px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #A0AAB2;
+    }
+
+    #circle-G {
+    position: absolute;
+    top:50px;
+    left:25px;
+      width: 150px;
+      height: 200px;
+      background: #94849B;
+      border-radius: 50%
+    }
+    #circle-G1 {
+    position: absolute;
+    top:92px;
+    left:75px;
+      width: 150px;
+      height: 110px;
+      background: #A0AAB2;
+      border-radius: 35%
+    }
+    #square-G {
+      position: absolute;
+      top: 20px;
+      left: 125px;
+      width: 90px;
+      height: 230px;
+      background: #A0AAB2;
+      transform: skew(-15deg);
+    }
+    #parallelogram-G1 {
+    position: absolute;
+    top:50px;
+    left:92px;
+      width: 60px;
+      height: 43px;
+      transform: skew(-20deg);
+      background: #94849B;
+    }
+    #parallelogram-G2 {
+    position: absolute;
+      top: 161px;
+      left: 120px;
+      width: 30px;
+      height: 90px;
+      background: #94849B;
+      transform: skew(-15deg);
+    }
+
+    #parallelogram-T {
+    	position: absolute;
+    	top:50px;
+    	left:50px;
+    	width: 140px;
+    	height: 20px;
+    	transform: skew(-20deg);
+    	background: #94849B;
+    }
+    #parallelogram-T1 {
+    	position: absolute;
+    	top:75px;
+    	left:60px;
+    	width: 45px;
+    	height: 180px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+
+    #parallelogram-H {
+	    position: absolute;
+	    top:50px;
+	    left:37px;
+    	width: 40px;
+	    height: 200px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-H1 {
+	    position: absolute;
+	    top:135px;
+	    left:90px;
+	    width: 50px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-H2 {
+    position: absolute;
+    top:50px;
+    left:120px;
+      width: 45px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #94849B;
+    }
+
+    #parallelogram-E {
+	    position: absolute;
+	    top:50px;
+	    left:37px;
+	    width: 45px;
+	    height: 200px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E1 {
+	    position: absolute;
+	    top:50px;
+	    left:120px;
+	    width: 70px;
+	    height: 43px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E2 {
+	    position: absolute;
+	    top:135px;
+	    left:93px;
+	    width: 50px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E3 {
+	    position: absolute;
+	    top:206px;
+	    left:63px;
+	    width: 70px;
+	    height: 43px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+
+    #space {
+    	width: 150px;
+    }
+
+    #parallelogram-W {
+    position: absolute;
+    top:50px;
+    left:37px;
+      width: 40px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #94849B;
+    }
+    #parallelogram-W2 {
+    position: absolute;
+    top:50px;
+    left:120px;
+      width: 40px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #94849B;
+    }
+    #parallelogram-W3 {
+    position: absolute;
+    top:50px;
+    left:77px;
+      width: 7px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #A0AAB2;
+    }
+    #parallelogram-W4 {
+    position: absolute;
+    top:50px;
+    left:116px;
+      width: 7px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #A0AAB2;
+    }
+    
+     #v {
+      position: relative;
+      text-align: center;
+      padding: 12px;
+      margin-bottom: 6px;
+      height: 10px;
+      width: 10px;
+    }
+    #vbefore {
+      content: '';
+      position: absolute;
+      top: 50px;
+      left: 65px;
+      height: 67%;
+      width: 6%;
+      background: #94849B;
+      transform: rotate(-10deg);
+    }
+    #vbefore1 {
+      content: '';
+      position: absolute;
+      top: 50px;
+      left: -20px;
+      height: 67%;
+      width: 6%;
+      background: #94849B;
+      transform: rotate(-10deg);}
+
+    #parallelogram-E {
+	    position: absolute;
+	    top:50px;
+	    left:37px;
+	    width: 45px;
+	    height: 200px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E1 {
+	    position: absolute;
+	    top:50px;
+	    left:120px;
+	    width: 70px;
+	    height: 43px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E2 {
+	    position: absolute;
+	    top:135px;
+	    left:93px;
+	    width: 50px;
+	    height: 20px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+    #parallelogram-E3 {
+	    position: absolute;
+	    top:206px;
+	    left:63px;
+	    width: 70px;
+	    height: 43px;
+	    transform: skew(-20deg);
+	    background: #94849B;
+    }
+
+    #parallelogram-B {
+   	position: absolute;
+   	top:50px;
+   	left:37px;
+      width: 45px;
+      height: 200px;
+      transform: skew(-20deg);
+      background: #94849B;
+  }
+  #parallelogram-B1 {
+   	position: absolute;
+   	top:50px;
+   	left:110px;
+      width: 80px;
+      height: 90px;
+      transform: skew(-20deg);
+      background: #94849B;
+  }
+  #parallelogram-B2 {
+   	position: absolute;
+   	top:160px;
+   	left:70px;
+      width: 80px;
+      height: 90px;
+      transform: skew(-20deg);
+      background: #94849B;
+  }
+.title2 {text-align: center;}
+
+
+h6 {
+	color:#94849B;
+	font-weight: 1000;
+	font-size: 200px;
+	font-family: 'Notable', sans-serif;
+	font-style: italic;
+	margin: -40px auto 0 auto;
+}
+
+
+h1 {
+	font-size: 80px;
+	font-family:Ubuntu;
+	text-align: center;
+/*	margin-top: -100px;*/
+}
+
+h4{
+	font-size:50px;
+	font-family:Ubuntu;
+	text-align: center;
+	font-weight: 100;
+	font-style: italic;
+	}
+
+h2 {
+	font-size:60px;
+	font-family:Ubuntu;
+	text-align: center;
+	}
+
+h3 {
+	font-size:50px;
+	font-family:Ubuntu;
+	font-weight: 800;
+	text-align: center;
+}
+
+h5 {
+	font-size:50px;
+	font-family:Ubuntu;
+	text-align: center;
+	font-weight: 100;
+	}
+a {
+	color: white;
+}
+a:hover {
+	color: purple;
+}
+
+body {
+	background-color: #A0AAB2;
+	color:white;
+}
+
+
+p {
+	text-align: center;
+	font-size:2a0px;
+	font-family:Ubuntu;
+	text-align: center;
+	font-weight: 100;
+	color:white;
+	}
